@@ -233,7 +233,7 @@ a.site-logo {
   }
 
   .meet-me{
-    border: 2px solid pink;
+    border: 2px solid rgb(26, 140, 74);
     margin-top: 50px;
     margin: 10px 10px;
     height: 70%;
@@ -294,7 +294,7 @@ a.site-logo {
 }
 
 .icons{
-  margin-top: -10px;
+  margin-top: 10px;
   width: 40px;
   height: 40px;
   padding-left: 5px;
@@ -367,7 +367,7 @@ hr{
 }
 
 .icons{
-  margin-top: 20px;
+  margin-top: -5px;
 }
 
 } 
@@ -417,6 +417,7 @@ hr{
 }
 
 .icons{
+  margin-top: -10px;
   width: 35px;
   height: 35px;
 }
