@@ -233,7 +233,7 @@ a.site-logo {
   }
 
   .meet-me{
-    border: 1px solid teal;
+    border: 1px solid rgb(128, 55, 0);
     margin-top: 50px;
     margin: 10px 10px;
     height: 70%;
@@ -262,7 +262,7 @@ a.site-logo {
  }
 
  .hero-image{
-   width: 100%;
+   width: 90%;
    height: 90%;
  }
  
@@ -272,13 +272,14 @@ a.site-logo {
 }
 
 .hero-text-2{
-    font-size:4rem;
+    font-size:3rem;
     font-family: 'Rowdies', cursive;
     margin: 10px;
+    text-align: start;
 }
 
 .hero-text-3{
-    font-size:2.5rem;
+    font-size:2.2rem;
     font-family: 'Rowdies', cursive;
     margin: 0;
     letter-spacing: 5px;
@@ -471,7 +472,7 @@ button {
   margin-top: 10px;
   font-size: 20px;
   width: 30%;
-  height: 15%;
+  height: 25%;
   padding: 2px 5px 2px 5px;
 }
 
