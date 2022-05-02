@@ -478,13 +478,14 @@ button {
 @media only screen and (max-width: 480px) {
 
   .hero{
-    height: 100vh;
-    margin-top: 5px;
+    border: 2px solid green;
+    height: 80vh;
+    margin-top: 40px;
 
   }
 
   .meet-me{
-    margin: -20px 0 0 0;
+    margin: 0;
     height: 90%; 
     width: 95%;
     
@@ -503,29 +504,41 @@ button {
  
  }
 
+ .hero-text-1{
+  margin-top: -70px;
+  height: 10%;
+
+ }
+
 .hero-text-2{
-    font-size: 1.8rem;
+  height: 20%;
+    font-size: 2rem;
   margin-top: -5px;
 }
 
 .hero-text-3{
-    font-size: 0.8rem;
+  height: 10%;
+    font-size: 1rem;
     letter-spacing: 3px;
 }
 
 .hero-paragraph{
   width: 100%;
-  font-size: 12px;
+  font-size: 15px;
+  height: 30%;
 }
 
 .icons{
- display: none;
+  padding-left: 0;
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
 }
 
 button {
   margin-top: 10px;
-  font-size: 16px;
-  width: 40%;
+  font-size: 18px;
+  width: 50%;
   height: 10%;
   padding: 2px 5px 2px 5px;
 }
