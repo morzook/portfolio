@@ -233,7 +233,6 @@ a.site-logo {
   }
 
   .meet-me{
-    border: 2px solid rgb(26, 140, 74);
     margin-top: 50px;
     margin: 10px 10px;
     height: 70%;
@@ -254,7 +253,7 @@ a.site-logo {
 
  .hero-image-container{
   height: 70%;
-  width: 35%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -263,7 +262,7 @@ a.site-logo {
 
  .hero-image{
    width: 90%;
-   height: 90%;
+   height: 80%;
  }
  
 
