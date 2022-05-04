@@ -871,6 +871,7 @@ width: 50px;
   }
   
   .form-container{
+    border: 2px solid red;
     padding-top: 10px;
     text-align: center;
     width: 70%;
