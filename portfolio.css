@@ -477,7 +477,7 @@ button {
 }
 
 .icons{
-  padding-left: 0;
+  padding-left: 10px;
   margin-top: 5px;
   width: 35px;
   height: 35px;
@@ -487,7 +487,7 @@ button {
   margin-top: 10px;
   font-size: 20px;
   width: 30%;
-  height: 30%;
+  height: 50%;
   padding: 2px 5px 2px 5px;
 }
 } 
@@ -546,7 +546,7 @@ button {
 }
 
 .icons{
-  padding-left: 0;
+  padding-left: 10px;
   margin-top: 5px;
   width: 35px;
   height: 35px;
@@ -653,10 +653,11 @@ button {
 @media only screen and (max-width: 1024px) {
 
 .about-me{
-  height: 100vh;
+  height: 80vh;
 }
 
 .about-me-content{
+  border: 2px solid red;
   width: 85%;
   height: 98%;
 }
@@ -672,6 +673,7 @@ button {
 }
 
 .about-me-text{
+  border: 2px solid rgb(30, 255, 0);
   width: 50%;
   height: 98%; 
   padding: 0 10px;
