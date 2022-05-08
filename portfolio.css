@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
   color: white;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,26,71,1) 77%);
@@ -841,11 +841,13 @@ button {
 }
 
 .about-me-image{
+  margin-top: 25px;
   height: 40%;
 
 }
 
 .about-me-image-container{
+  border: 2px solid red;
   width: 200px;
   height: 200px;
   margin-left: 0;
@@ -853,6 +855,7 @@ button {
 }
 
 .about-image{
+  border: 2px solid red;
   width: 200px;
   height: 200px;
 }
@@ -1111,7 +1114,7 @@ button {
 
  .project-content-1{
    background-color: rgb(34, 34, 112);
-   color: #c4d8c9;
+   color: #b7d8bf;
    opacity: 90%;
    padding: 5px 5px 5px 10px;
    width: 90%;
