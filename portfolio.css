@@ -1098,7 +1098,6 @@ button {
   }
 
   .project-1, .project-2, .project-3{
-   border: 2px solid rgb(128, 13, 0);
    width: 95%;
    height: 33%;
    padding: 4px;
@@ -1112,12 +1111,14 @@ button {
 
  .project-content-1{
    background-color: rgb(34, 34, 112);
+   color: #c4d8c9;
+   opacity: 90%;
    padding: 5px 5px 5px 10px;
    width: 95%;
-   height: 50%;
+   height: 60%;
    position: relative;
    left: 0;
-   bottom: 100px;
+   bottom: 120px;
  }
 
  #project-content-1{
@@ -1126,12 +1127,10 @@ button {
 
 
 .project-topic{
-  border: 2px solid red;
   height: 15%;
 }
 
 .project-description{
-  border: 2px solid rgb(255, 225, 0);
   height: 45%;
 }
 
@@ -1140,15 +1139,17 @@ button {
 }
 
 .project-tech{
-  border: 2px solid rgb(0, 255, 0);
   word-spacing: 5px;
 
 }
 
 .github, .external-link{
-  border: 2px solid rgb(212, 0, 255);
   width: 20px;
   height: 20px;
+}
+
+#project-links-2{
+  text-align: start;
 }
 
  .project-content-2{
