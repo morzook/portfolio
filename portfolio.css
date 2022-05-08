@@ -985,8 +985,11 @@ button {
 /* SMALL SCREENS, LAPTOPS */
 @media only screen and (max-width: 1024px) {
     .projects{
-      height: 200vh;
+      height: 180vh;
       margin-top: 0px;
+    }
+    
+    .projects-container{
     }
 
 
@@ -1090,7 +1093,7 @@ button {
   }
 
   .projects-container{
-    margin-top: 0;
+    margin-top: 70px;
     width: 99%;
   }
 
@@ -1114,15 +1117,41 @@ button {
    height: 50%;
    position: relative;
    left: 0;
-   bottom: 120px;
+   bottom: 100px;
  }
 
  #project-content-1{
   left: 0;
 }
 
+
+.project-topic{
+  border: 2px solid red;
+  height: 15%;
+}
+
+.project-description{
+  border: 2px solid rgb(255, 225, 0);
+  height: 45%;
+}
+
+.project-paragraph{
+  margin: 0;
+}
+
+.project-tech{
+  border: 2px solid rgb(0, 255, 0);
+  word-spacing: 5px;
+
+}
+
+.github, .external-link{
+  border: 2px solid rgb(212, 0, 255);
+  width: 20px;
+  height: 20px;
+}
+
  .project-content-2{
-  border: 2px solid white;
    width: 90%;
    height: 80%;
  }
