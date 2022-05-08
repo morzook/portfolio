@@ -1131,7 +1131,7 @@ button {
 }
 
 .project-description{
-  height: 45%;
+  height: 60%;
 }
 
 .project-paragraph{
@@ -1140,10 +1140,12 @@ button {
 
 .project-tech{
   word-spacing: 5px;
+  height: 10%;
 
 }
 
 .github, .external-link{
+  height: 10%;
   width: 20px;
   height: 20px;
 }
