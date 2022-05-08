@@ -1147,9 +1147,7 @@ button {
 #project-img-3{
  width: 110%;
  height: 85%;
-}
-
-      
+}     
 } 
 
 /* MOBILE PHONE POTRAIT */
@@ -1181,7 +1179,7 @@ button {
  .project-content-1{
    background-color: rgb(34, 34, 112);
    color: #d8c0b7;
-   font-size: 15px;
+   font-size: 18px;
    opacity: 90%;
    padding: 5px;
    width: 95%;
@@ -1250,10 +1248,145 @@ button {
  height: 100%; 
 }
 }
-
-
-
 /* PROJECTS SECTION ENDS */
+
+
+
+/* OTHER PROJECTS SECTION STARTS */
+.other-projects{
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.other-projects-container{
+  padding: 0 5px 0 5px;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.other-projects-content{
+  height: 45%;
+  width: 28%;
+}
+
+.other-projects-content-1{
+  background-color: yellow;
+  height: 40%;
+}
+.other-projects-content-2{
+  background-color: rgb(34, 34, 112);
+  height: 60%;
+}
+
+#other-projects-topic{
+}
+
+#other-projects-description{
+  height: 60%;
+}
+
+#other-projects-paragraph{
+  height: 100%;
+  padding: 5px;
+}
+
+#other-projects-tech{
+  word-spacing: 10px;
+  margin-top: -15px;
+}
+
+#other-projects-links{
+  height: 10%;
+  word-spacing: 20px;
+  margin-top: 10px;
+}
+
+ 
+ /* SMALL SCREENS, LAPTOPS */
+ @media only screen and (max-width: 1024px) {
+    
+.other-projects-container{
+  border: 2px solid rgb(0, 255, 98);
+  padding: 0 5px 0 5px;
+  width: 75%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.other-projects-content{
+  height: 45%;
+  width: 34%;
+}
+
+.other-projects-content-1{
+  background-color: yellow;
+  height: 40%;
+}
+.other-projects-content-2{
+  background-color: rgb(34, 34, 112);
+  height: 60%;
+}
+
+#other-projects-topic{
+}
+
+#other-projects-description{
+  height: 60%;
+}
+
+#other-projects-paragraph{
+  height: 100%;
+  padding: 5px;
+}
+
+#other-projects-tech{
+  word-spacing: 0;
+  margin-top: 10px;
+}
+
+#other-projects-links{
+  height: 10%;
+  word-spacing: 20px;
+  margin-top: 5px;
+}
+} 
+
+ /* iPADS, TABLETS */
+ @media only screen and (max-width: 768px) {
+       
+} 
+
+ /* MOBILE LANDSCAPE */
+ @media (max-width: 750px) and (max-height: 500px) and (orientation: landscape) { 
+
+} 
+
+/* MOBILE PHONE POTRAIT */
+@media only screen and (max-width: 480px) { 
+
+}
+
+
+
+
+
+
+/* OTHER PROJECTS SECTION ENDS */
 
 
 
