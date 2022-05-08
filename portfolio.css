@@ -1264,7 +1264,7 @@ button {
 
 .other-projects-container{
   padding: 0 5px 0 5px;
-  width: 80%;
+  width: 75%;
   height: 90%;
   display: flex;
   flex-direction: row;
@@ -1318,19 +1318,13 @@ button {
 .other-projects-container{
   border: 2px solid rgb(0, 255, 98);
   padding: 0 5px 0 5px;
-  width: 75%;
+  width: 80%;
   height: 90%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .other-projects-content{
   height: 45%;
-  width: 34%;
+  width: 40%;
 }
 
 .other-projects-content-1{
@@ -1355,7 +1349,7 @@ button {
 }
 
 #other-projects-tech{
-  word-spacing: 0;
+  word-spacing: 10px;
   margin-top: 10px;
 }
 
@@ -1368,7 +1362,57 @@ button {
 
  /* iPADS, TABLETS */
  @media only screen and (max-width: 768px) {
-       
+    
+  .other-projects{
+    height: 300vh;
+  }
+  
+  .other-projects-container{
+    border: 2px solid rgb(255, 0, 242);
+    padding: 0 5px 0 5px;
+    width: 95%;
+    height: 90%;
+  }
+
+  .other-projects-content{
+    height: 25%;
+    width: 90%;
+  }
+
+  
+.other-projects-content-1{
+  background-color: yellow;
+  height: 50%;
+}
+.other-projects-content-2{
+  background-color: rgb(34, 34, 112);
+  height: 40%;
+}
+
+#other-projects-topic{
+  height: 15%;
+}
+
+#other-projects-description{
+  height: 45%;
+}
+
+#other-projects-paragraph{
+  height: 100%;
+  padding: 3px 5px 0 5px;
+}
+
+#other-projects-tech{
+  word-spacing: 30px;
+  margin-top: 10px;
+}
+
+#other-projects-links{
+  height: 10%;
+  word-spacing: 15px;
+  margin-top: 10px;
+}
+
 } 
 
  /* MOBILE LANDSCAPE */
