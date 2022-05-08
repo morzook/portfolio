@@ -884,6 +884,7 @@ button {
 }
 
 .projects-container{
+  border: 1px solid teal;
   width: 95%;
   height: 90%;
   display: flex;
@@ -1005,8 +1006,8 @@ button {
 
     .project-content-1{
       padding: 10px 10px 10px 20px;
-      width: 50%;
-      height: 50%;
+      width: 60%;
+      height: 40%;
       left: 60px;
     }
     
@@ -1029,8 +1030,8 @@ button {
 }
 
 .project-content-2{
-  width: 40%;
-  height: 80%;
+  width: 50%;
+  height: 70%;
 }
 } 
 
