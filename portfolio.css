@@ -1104,6 +1104,7 @@ button {
   }
   
   .projects-container{
+    overflow: hidden;
   }
 
   .project-1, .project-2, .project-3{
@@ -1147,7 +1148,6 @@ button {
 
       
 } 
-} 
 
 /* MOBILE PHONE POTRAIT */
 @media only screen and (max-width: 480px) { 
@@ -1177,10 +1177,10 @@ button {
 
  .project-content-1{
    background-color: rgb(34, 34, 112);
-   color: #b7d8bf;
+   color: #d8c0b7;
    opacity: 90%;
-   padding: 5px 5px 5px 10px;
-   width: 90%;
+   padding: 5px;
+   width: 95%;
    height: 70%;
    position: relative;
    left: 0;
