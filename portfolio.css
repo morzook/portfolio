@@ -1459,8 +1459,9 @@ button {
 }
 .other-projects-content-2{
   background-color: rgb(34, 34, 112);
-  font-size: 12px;
+  font-size: 15px;
   height: 50%;
+  justify-content: space-between;
 }
 
 #other-projects-topic{
