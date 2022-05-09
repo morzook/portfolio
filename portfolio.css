@@ -584,7 +584,6 @@ button {
 }
 
 .dashed-heading{
-  border: 2px dashed rgb(255, 0, 255);
 }
 
 .separator{
@@ -1488,148 +1487,11 @@ button {
 }
 
 }
-
-
-
-
-
-
 /* OTHER PROJECTS SECTION ENDS */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* CONTACT-ME SECTION STARTS */
-.contact-me{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  padding: 20px 0;
-}
-
-.form-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* position: absolute; */
-  width: 80%;
-  height: 80%;
-  /* top: 50%; */
-  padding: 0 20px;
-}
-
-.form-feild{
-  background: transparent;
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 40px;
-  border-radius: 9px;
-  display: flex;
-  flex-direction: column;
-}
-
-.input-feild{
-  
-}
-
-.form-button{
-  border-radius: 4px;
-  display: block;
-  color: aqua;
-  background: #666;
-  padding: 10px;
-  width: 50%;
-  cursor: pointer;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.input-feild .input{
-background: transparent;
-  color: aqua;
-  border: 0;
-  font-family: 'Roboto', sans-serif;
-  border-bottom: 2px solid rgb(60, 218, 55);
-  padding: 10px;
-  margin: 10px 20px;
-  width: 100%;
-  
-}
-::webkit-input-placeholder{
-  color: aquamarine;
-}
-
-::moz-input-placeholder{
-  color: aquamarine;
-}
-.form-button:hover{
-  color: orange;
-  background-color: cyan;
-}
-
-
-
-
- /* CONTACT-ME SECTION ENDS */
-
-
-
 
 .footer{
   background: transparent;
-  height: 25vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1638,65 +1500,10 @@ background: transparent;
 }
 
 .footer-icons{
-height: 50px;
-width: 50px;
+height: 40px;
+width: 40px;
 }
 
-/* contact me tab */
-@media screen and (max-width: 768px) {
-  .contact-me{
-    display: flex;
-    justify-content: center;
-    height: 50vh;
-    margin-top: 10px;
-  }
-  
-  .form-container{
-    padding-top: 10px;
-    text-align: center;
-    width: 60%;
-  }
-  
-  
-  .form-feild{
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 5px;
-    border-radius: 9px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer{
-    background: transparent;
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-/* contact me mobile */
-@media screen and (max-width: 480px) {
-  .contact-me{
-    display: flex;
-    justify-content: center;
-    height: 60vh;
-    margin-top: 10px;
-  }
-  
-  .form-container{
-    padding-top: 10px;
-    text-align: center;
-    width: 70%;
-  }
-
-  .footer-icons{
-    height: 40px;
-    width: 40px;
-    }
-}
 
 
 
