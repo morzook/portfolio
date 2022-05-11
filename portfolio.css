@@ -308,10 +308,12 @@ button {
   border-color: black;
   font-family: Arial;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
   width: 30%;
+  height: 60px;
   padding: 5px 10px 5px 10px;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 button:hover {
