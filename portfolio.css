@@ -311,15 +311,15 @@ a.site-logo {
 }
 
 .social-buttons{
-  border: 2px solid red;
+  border: 2px solid rgb(94, 255, 0);
   width: 30%;
   height: 100%;
 }
 
 .icons{
   margin-top: 8px;
-  width: 22%;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   color: #fafafa;
 }
 
