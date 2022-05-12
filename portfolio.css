@@ -251,7 +251,7 @@ a.site-logo {
   }
 
   .meet-me{
-    border: 2px solid rgb(32, 73, 73);
+    border: 2px solid rgb(14, 238, 238);
     margin-top: 100px;
     margin: 10px 10px;
     height: 80%;
@@ -323,7 +323,6 @@ a.site-logo {
   height: 15%;
   border: 2px solid rgb(94, 255, 0);
   width: 30%;
-  height: 100%;
 }
 
 .icons{
