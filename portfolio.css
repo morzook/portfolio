@@ -712,6 +712,7 @@ button {
 }
 
 .about-me-content{
+  border: 2px solid red;
   flex-direction: column;
   margin-top: -50px; 
   padding: 0 15px;
@@ -720,6 +721,7 @@ button {
 }
 
 .about-me-text{
+  border: 2px solid teal;
   width: 90%;
   height: 95%; 
   margin-top: 15px; 
@@ -728,6 +730,7 @@ button {
 }
 
 .about-me-image{
+  border: 2px solid yellow;
   width: 90%;
 
 }
