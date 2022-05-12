@@ -390,6 +390,10 @@ hr{
   padding-left: 5px;
 }
 
+button{
+  width: 40%;
+}
+
 } 
 
  /* iPADS, TABLETS */
@@ -731,7 +735,7 @@ button {
 }
 
 .about-me-content{
-  border: 2px solid red;
+  border: 2px solid rgb(0, 255, 179);
   flex-direction: column;
   margin-top: -50px; 
   padding: 0 15px;
@@ -740,9 +744,9 @@ button {
 }
 
 .about-me-text{
-  border: 2px solid teal;
-  width: 90%;
-  height: 95%; 
+  border: 2px solid rgb(247, 7, 239);
+  width: 95%;
+  height: 60%; 
   margin-top: 15px; 
   padding: 0 10px;
   line-height: 20px;
@@ -751,7 +755,7 @@ button {
 .about-me-image{
   border: 2px solid yellow;
   width: 90%;
-
+  height: 40%; 
 }
 
 .about-me-image-container{
