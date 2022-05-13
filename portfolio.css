@@ -265,7 +265,7 @@ a.site-logo {
 .text-area{
   border: 2px solid teal;
     width: 60%;
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
