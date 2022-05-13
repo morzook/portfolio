@@ -286,12 +286,12 @@ a.site-logo {
 .hero-text-1{
   height: 10%;
   margin: 0;
-  border: 2px solid rgb(204, 0, 255);
+  /* border: 2px solid rgb(204, 0, 255); */
     font-size:large;
 }
 
 .hero-text-2{
-  border: 2px solid rgb(170, 255, 0);
+  /* border: 2px solid rgb(170, 255, 0); */
     font-size: 3.5rem;
   height: 15%;
     font-family: 'Rowdies', cursive;
@@ -300,7 +300,7 @@ a.site-logo {
 }
 
 .hero-text-3{
-  border: 2px solid rgb(251, 255, 0);
+  /* border: 2px solid rgb(251, 255, 0); */
   height: 12%;  
   font-size: 1.8rem;
     font-family: 'Rowdies', cursive;
@@ -310,12 +310,12 @@ a.site-logo {
 
 .intro{
   border: 2px solid red;
-  height: 23%;
+  /* height: 23%; */
   margin-top: 5px;
 }
 
 .hero-paragraph{
-  border: 2px solid rgb(255, 0, 247);
+  /* border: 2px solid rgb(255, 0, 247); */
   width: 90%;
   height: 100%;
   margin: 0;
