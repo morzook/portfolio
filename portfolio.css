@@ -289,22 +289,22 @@ a.site-logo {
 .hero-text-1{
   height: 10%;
   margin: 0;
-  /* border: 2px solid rgb(204, 0, 255); */
+  border: 2px solid rgb(204, 0, 255);
     font-size:large;
 }
 
 .hero-text-2{
-  /* border: 2px solid rgb(170, 255, 0); */
-    font-size:3rem;
-  height: 13%;
+  border: 2px solid rgb(170, 255, 0);
+    font-size: 3rem;
+  height: 15%;
     font-family: 'Rowdies', cursive;
     margin: 0;
     text-align: start;
 }
 
 .hero-text-3{
-  /* border: 2px solid rgb(251, 255, 0); */
-  height: 13%;  
+  border: 2px solid rgb(251, 255, 0);
+  height: 15%;  
   font-size:2.2rem;
     font-family: 'Rowdies', cursive;
     margin: 0;
@@ -313,7 +313,7 @@ a.site-logo {
 
 .hero-paragraph{
   /* border: 2px solid rgb(255, 0, 247); */
-  width: 80%;
+  width: 90%;
   height: 23%;
   margin: 0;
   opacity: 70%;
@@ -324,7 +324,7 @@ a.site-logo {
   margin-top: 10px;
   height: 15%;
   /* border: 2px solid rgb(94, 255, 0); */
-  width: 30%;
+  width: 40%;
 }
 
 .icons{
