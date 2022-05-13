@@ -286,12 +286,10 @@ a.site-logo {
 .hero-text-1{
   height: 10%;
   margin: 0;
-  /* border: 2px solid rgb(204, 0, 255); */
     font-size:large;
 }
 
 .hero-text-2{
-  /* border: 2px solid rgb(170, 255, 0); */
     font-size: 3.5rem;
   height: 15%;
     font-family: 'Rowdies', cursive;
@@ -300,7 +298,6 @@ a.site-logo {
 }
 
 .hero-text-3{
-  /* border: 2px solid rgb(251, 255, 0); */
   height: 12%;  
   font-size: 1.8rem;
     font-family: 'Rowdies', cursive;
@@ -309,13 +306,10 @@ a.site-logo {
 }
 
 .intro{
-  border: 2px solid red;
-  /* height: 23%; */
   margin-top: 5px;
 }
 
 .hero-paragraph{
-  /* border: 2px solid rgb(255, 0, 247); */
   width: 90%;
   height: 100%;
   margin: 0;
@@ -329,7 +323,6 @@ a.site-logo {
   justify-content: space-between;
   margin-top: 10px;
   height: 15%;
-  /* border: 2px solid rgb(94, 255, 0); */
   width: 30%;
 }
 
@@ -394,28 +387,37 @@ hr{
  }
 
 .hero-text-2{
-    font-size:3rem;
+    font-size: 3.5rem;
 }
 
 .hero-text-3{
-    font-size:1.3rem;
-    letter-spacing: 6px;
+  margin-top: 4px;
+    font-size: 1.6rem;
+    letter-spacing: 10px;
 }
 
+
+.intro{
+  border: 2px solid red;
+  margin-top: 5px;
+}
 .hero-paragraph{
   width: 100%;
 }
 
 .social-buttons{
+  border: 2px solid yellow;
   margin-top: 10px;
   height: 15%;
+  justify-content: center;
   width: 40%;
 }
 
 .icons{
-  margin-top: -5px;
   width: 35px;
   height: 35px;
+  padding-left: 10px;
+
 }
 
 button{
