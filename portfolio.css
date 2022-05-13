@@ -530,14 +530,14 @@ button{
 }
 
 .intro{
-  border: 2px solid rgb(245, 47, 255);
+  border: 2px solid rgb(95, 255, 47);
   margin-top:10px;
   width: 80%;
 
 }
 
 .hero-paragraph{
-  margin-top: -12px;
+  /* margin-top: -12px; */
   width: 100%;
   font-size: 14px;
 }
@@ -550,10 +550,10 @@ button{
 }
 
 .icons{
-  padding-left: 5px;
+  /* padding-left: 5px; */
   margin-top: 5px;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 
 button {
