@@ -303,7 +303,7 @@ a.site-logo {
 }
 
 .hero-text-3{
-  border: 2px solid rgb(251, 255, 0);
+  /* border: 2px solid rgb(251, 255, 0); */
   height: 15%;  
   font-size: 1.8rem;
     font-family: 'Rowdies', cursive;
@@ -312,7 +312,7 @@ a.site-logo {
 }
 
 .hero-paragraph{
-  border: 2px solid rgb(255, 0, 247);
+  /* border: 2px solid rgb(255, 0, 247); */
   width: 90%;
   height: 23%;
   margin: 0;
@@ -321,10 +321,13 @@ a.site-logo {
 }
 
 .social-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-top: 10px;
   height: 15%;
-  border: 2px solid rgb(94, 255, 0);
-  width: 33%;
+  /* border: 2px solid rgb(94, 255, 0); */
+  width: 30%;
 }
 
 .icons{
@@ -408,8 +411,9 @@ hr{
 }
 
 .icons{
-  margin-top: -10px;
-  padding-left: 5px;
+  margin-top: -5px;
+  width: 35px;
+  height: 35px;
 }
 
 button{
