@@ -249,7 +249,6 @@ a.site-logo {
   }
 
   .meet-me{
-    border: 2px solid rgb(14, 238, 238);
     margin: 10px 10px;
     height: 90%;
     width: 70%;
@@ -260,7 +259,6 @@ a.site-logo {
   }
 
 .text-area{
-  border: 2px solid teal;
     width: 60%;
     height: 70%;
     display: flex;
@@ -468,7 +466,6 @@ button{
 }
 
 .hero-paragraph{
-  border: 2px solid red;
   width: 100%;
 }
 
@@ -489,6 +486,7 @@ button{
 button{
   width: 40%;
   margin-top: -10px;
+  height: 13%;
 }
 } 
 
@@ -561,12 +559,13 @@ button {
   }
 
   .meet-me{
-    margin: 0;
-    height: 70%; 
+  border: 2px solid rgb(243, 58, 26);
+    height: 80%; 
     width: 95%;
   }
 
 .text-area{
+  border: 2px solid teal;
   flex-direction: column;
     width: 95%;
     height: 95%;
@@ -576,7 +575,7 @@ button {
 
  .hero-image-container{
    display: none;
- 
+
  }
 
  .hero-text-1{
@@ -593,13 +592,17 @@ button {
 
 .hero-text-3{
   height: 10%;
-    font-size: 1.2rem;
-    letter-spacing: 3px;
+    font-size: 1rem;
+    letter-spacing: normal;
+}
+
+.intro{
+  border: 2px solid rgb(0, 255, 42);
 }
 
 .hero-paragraph{
   width: 100%;
-  font-size: 15px;
+  font-size: 17px;
   height: 30%;
   text-align: center;
 }
@@ -614,8 +617,8 @@ button {
 button {
   margin-top: 15px;
   font-size: 18px;
-  width: 50%;
-  height: 17%;
+  width: 60%;
+  height: 15%;
   padding: 2px 5px 2px 5px;
 }
 }
