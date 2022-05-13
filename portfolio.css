@@ -290,7 +290,7 @@ a.site-logo {
 }
 
 .hero-text-2{
-    font-size: 3.2rem;
+    font-size: 3rem;
   height: 15%;
     font-family: 'Rowdies', cursive;
     margin: 0;
@@ -299,7 +299,7 @@ a.site-logo {
 
 .hero-text-3{
   height: 12%;  
-  font-size: 1.5rem;
+  font-size: 1.2rem;
     font-family: 'Rowdies', cursive;
     margin: 0;
     letter-spacing: 5px;
@@ -423,15 +423,16 @@ button{
 
  /* iPADS, TABLETS */
  @media only screen and (max-width: 768px) {
-
+   
   .hero{
-    height: 80vh;
+    height: 90vh;
   }
 
   .meet-me{
-    margin: 40px 10px 10px 0;
+    margin-top: 50px;
+    margin: 10px 10px;
     height: 80%;
-    width: 90%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -439,7 +440,7 @@ button{
   }
 
 .text-area{
-    width: 75%;
+    width: 90%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -452,35 +453,37 @@ button{
  }
 
 .hero-text-2{
-    font-size:3.5rem;
+    font-size: 3.1rem;
 }
 
 .hero-text-3{
-    font-size: 2rem;
-    letter-spacing: 8px;
+  margin-top: 4px;
+    font-size: 1.3rem;
+    letter-spacing: 6px;
 }
 
-.hero-paragraph{
-  width: 100%;
-  font-size: 15px;
+
+.intro{
+  margin-top: 5px;
+}
+
+.social-buttons{
+  margin-top: 10px;
+  height: 15%;
+  justify-content: center;
+  width: 40%;
 }
 
 .icons{
-  margin-top: -20px;
   width: 35px;
   height: 35px;
-  padding-left: 5px;
+  padding-left: 10px;
+
 }
 
-button {
-  margin-top: 20px;
-  font-size: 16px;
-  width: 35%;
-  height: 10%;
-  padding: 5px 10px 5px 10px;
+button{
+  width: 40%;
 }
-
-       
 } 
 
  /* MOBILE LANDSCAPE */
