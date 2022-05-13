@@ -498,7 +498,6 @@ button{
   }
 
   .meet-me{
-    border: 2px solid red;
     margin: 25px 5px 5px 0;
     height: 80%;
     width: 90%;
@@ -509,7 +508,6 @@ button{
   }
 
 .text-area{
-  border: 2px solid rgb(43, 255, 0);
     width: 95%;
     height: 90%;
 }
@@ -530,9 +528,10 @@ button{
 }
 
 .intro{
-  border: 2px solid rgb(95, 255, 47);
   margin-top:10px;
+  font-size: 15px;
   width: 80%;
+  height: 30%;
 
 }
 
@@ -545,12 +544,10 @@ button{
 .social-buttons{
   margin-top: 10px;
   width: 30%;
-  border: 2px solid aqua;
 
 }
 
 .icons{
-  /* padding-left: 5px; */
   margin-top: 5px;
   width: 30px;
   height: 30px;
@@ -560,7 +557,7 @@ button {
   margin-top: 10px;
   font-size: 17px;
   width: 30%;
-  height: 30%;
+  height: 20%;
   padding: 2px 5px 2px 5px;
 }
 } 
