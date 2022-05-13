@@ -565,10 +565,10 @@ button {
   }
 
 .text-area{
-  border: 2px solid teal;
+  border: 2px solid rgb(216, 18, 255);
   flex-direction: column;
     width: 95%;
-    height: 95%;
+    height: 80%;
     justify-content: center;
     align-items: center;
 }
@@ -579,7 +579,7 @@ button {
  }
 
  .hero-text-1{
-  margin-top: -70px;
+  margin-top: -50px;
   height: 10%;
 
  }
