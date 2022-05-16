@@ -781,13 +781,12 @@ button {
  @media only screen and (max-width: 768px) {
    
   .about-me{
-    height: 100vh;
+    height: 90vh;
     margin-top: 40px; 
   
   }
   
   .about-me-content{
-    border: 2px solid rgb(0, 255, 179);
     flex-direction: column;
     margin-top: -50px; 
     padding: 0 15px;
@@ -796,7 +795,6 @@ button {
   }
   
   .about-me-text{
-    border: 2px solid rgb(247, 7, 239);
     width: 95%;
     height: 60%; 
     margin-top: 15px; 
@@ -805,21 +803,20 @@ button {
   }
   
   .about-me-image{
-    border: 2px solid yellow;
     width: 90%;
     height: 40%; 
   }
   
   .about-me-image-container{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin-left: 20px;
     box-shadow: 8px 8px 2px teal;
   }
   
   .about-image{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
   
   .about-image{
