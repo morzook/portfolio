@@ -288,7 +288,6 @@ a.site-logo {
 }
 
 .hero-text-2{
-  border: 1px solid rgb(0, 255, 115);
     font-size: 4vw;
   /* height: 15%; */
     font-family: 'Rowdies', cursive;
@@ -424,7 +423,7 @@ button{
  @media only screen and (max-width: 768px) {
    
   .hero{
-    height: 90vh;
+    height: 80vh;
   }
 
   .meet-me{
@@ -456,7 +455,7 @@ button{
 }
 
 .hero-text-3{
-  margin-top: -10px;
+  margin-top: -5px;
     font-size: 3vw;
     letter-spacing: 3px;
 }
@@ -471,23 +470,24 @@ button{
 }
 
 .social-buttons{
+  border: 1px solid rgb(37, 126, 77);
   margin-top: 10px;
   height: 15%;
-  justify-content: center;
+  justify-content: unset;
   width: 40%;
 }
 
 .icons{
   width: 35px;
   height: 35px;
-  padding-left: 10px;
+  padding-left: 5px;
 
 }
 
 button{
   width: 40%;
   margin-top: -10px;
-  height: 13%;
+  height: 12%;
 }
 } 
 
