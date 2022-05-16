@@ -385,12 +385,12 @@ hr{
  }
 
 .hero-text-2{
-    font-size: 3.1rem;
+    font-size: 8vw;
 }
 
 .hero-text-3{
   margin-top: 4px;
-    font-size: 1.3rem;
+    font-size: 3vw;
     letter-spacing: 6px;
 }
 
@@ -451,13 +451,13 @@ button{
  }
 
 .hero-text-2{
-    font-size: 3.1rem;
+    font-size: 8vw;
 }
 
 .hero-text-3{
   margin-top: 4px;
-    font-size: 1.3rem;
-    letter-spacing: 6px;
+    font-size: 5vw;
+    letter-spacing: normal;
 }
 
 
@@ -602,7 +602,7 @@ button {
 
 .hero-text-3{
   height: 12%;
-    font-size: 6vw;
+    font-size: 5vw;
   letter-spacing: 2px;
 }
 
