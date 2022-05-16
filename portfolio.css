@@ -1417,6 +1417,289 @@ height: 100%;
 }
 /* PROJECTS SECTION ENDS */
 
+
+/* OTHER PROJECTS SECTION STARTS */
+.other-projects{
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.other-projects-container{
+  padding: 0 10px 0 10px;
+  width: 85%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.other-projects-content{
+  height: 45%;
+  width: 28%;
+}
+
+.other-projects-content-1{
+  background-color: yellow;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-projects-image{
+  width: 100%;
+  height: 100%;
+}
+
+.other-projects-content-2{
+  background-color: rgb(34, 34, 112);
+  height: 60%;
+  padding: 0 5px 0 5px;
+}
+
+#other-projects-topic{
+}
+
+#other-projects-description{
+  height: 60%;
+}
+
+#other-projects-paragraph{
+  height: 100%;
+  padding: 5px;
+}
+
+#other-projects-tech{
+  word-spacing: 10px;
+  margin-top: -15px;
+}
+
+#other-projects-links{
+  height: 10%;
+  word-spacing: 20px;
+  margin-top: 10px;
+}
+
+ 
+ /* SMALL SCREENS, LAPTOPS */
+ @media only screen and (max-width: 1024px) {
+    
+.other-projects-container{
+  padding: 0 5px 0 5px;
+  width: 80%;
+  height: 90%;
+}
+
+.other-projects-content{
+  height: 45%;
+  width: 40%;
+}
+
+.other-projects-content-1{
+  background-color: yellow;
+  height: 40%;
+}
+.other-projects-content-2{
+  background-color: rgb(34, 34, 112);
+  height: 60%;
+}
+
+#other-projects-topic{
+}
+
+#other-projects-description{
+  height: 60%;
+}
+
+#other-projects-paragraph{
+  height: 100%;
+  padding: 5px;
+}
+
+#other-projects-tech{
+  word-spacing: 10px;
+  margin-top: 10px;
+}
+
+#other-projects-links{
+  height: 10%;
+  word-spacing: 20px;
+  margin-top: 5px;
+}
+} 
+
+ /* iPADS, TABLETS */
+ @media only screen and (max-width: 768px) {
+    
+  .other-projects{
+    height: 300vh;
+  }
+  
+  .other-projects-container{
+    padding: 0 5px 0 5px;
+    width: 95%;
+    height: 90%;
+  }
+
+  .other-projects-content{
+    height: 25%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+.other-projects-content-1{
+  background-color: rgb(153, 169, 202);
+  height: 40%;
+  width: 70%;
+}
+
+.other-projects-image{
+  width: 100%;
+  height: 100%;
+}
+
+.other-projects-content-2{
+  background-color: rgb(34, 34, 112);
+  height: 50%;
+  width: 70%;
+}
+
+#other-projects-topic{
+  height: 15%;
+}
+
+#other-projects-description{
+  height: 45%;
+}
+
+#other-projects-paragraph{
+  height: 100%;
+  padding: 3px 5px 0 5px;
+}
+
+#other-projects-tech{
+  word-spacing: 30px;
+  margin-top: 10px;
+}
+
+#other-projects-links{
+  height: 10%;
+  word-spacing: 15px;
+  margin-top: 10px;
+}
+
+} 
+
+ /* MOBILE LANDSCAPE */
+ @media (max-width: 750px) and (max-height: 500px) and (orientation: landscape) { 
+  
+  .other-projects{
+    margin-top: -20px;
+     height: 500vh;
+   }
+
+   .other-projects-container{
+     height: 90%;
+   }
+
+   .other-projects-content{
+    height: 25%;
+  }
+
+   .other-projects-content-1{
+     height: 40%;
+   }
+
+   .other-projects-content-2{
+    height: 50%;
+  }
+} 
+
+/* MOBILE PHONE POTRAIT */
+@media only screen and (max-width: 480px) {
+      
+.other-projects-container{
+  padding: 0;
+  width: 100%;
+  height: 90%;
+}
+
+.other-projects-content{
+  height: 25%;
+  width: 100%;
+}
+
+.other-projects-content-1{
+  background-color: yellow;
+  height: 40%;
+  width: 90%;
+}
+.other-projects-content-2{
+  background-color: rgb(34, 34, 112);
+  font-size: 15px;
+  width: 90%;
+  height: 50%;
+  justify-content: space-between;
+}
+
+#other-projects-topic{
+}
+
+#other-projects-description{
+  height: 45%;
+}
+
+#other-projects-paragraph{
+  height: 100%;
+  padding: 2px;
+}
+
+#other-projects-tech{
+  word-spacing: 5px;
+  margin-top: 10px;
+}
+
+#other-projects-links{
+  height: 10%;
+  word-spacing: 10px;
+  margin-top: 10px;
+}
+
+}
+/* OTHER PROJECTS SECTION ENDS */
+
+.footer{
+  background: transparent;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-icons{
+height: 40px;
+width: 40px;
+}
+
+
+
+
+
+
+
+
   
   
 
