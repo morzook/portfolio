@@ -288,7 +288,7 @@ a.site-logo {
 }
 
 .hero-text-2{
-    font-size: 3rem;
+    font-size: 5vw;
   height: 15%;
     font-family: 'Rowdies', cursive;
     margin: 0;
@@ -297,7 +297,7 @@ a.site-logo {
 
 .hero-text-3{
   height: 12%;  
-  font-size: 1.2rem;
+  font-size: 2.5vw;
     font-family: 'Rowdies', cursive;
     margin: 0;
     letter-spacing: 5px;
@@ -389,8 +389,8 @@ hr{
 }
 
 .hero-text-3{
-  margin-top: 4px;
-    font-size: 2vw;
+  margin-top: 10px;
+    font-size: 2.5vw;
     letter-spacing: 6px;
 }
 
@@ -455,9 +455,9 @@ button{
 }
 
 .hero-text-3{
-  margin-top: 4px;
-    font-size: 4vw;
-    letter-spacing: normal;
+  margin-top: -10px;
+    font-size: 3vw;
+    letter-spacing: 3px;
 }
 
 
