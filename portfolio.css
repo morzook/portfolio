@@ -288,21 +288,20 @@ a.site-logo {
 }
 
 .hero-text-2{
-  border: 1px solid yellow;
+  border: 1px solid rgb(0, 255, 115);
     font-size: 4vw;
-  height: 15%;
+  /* height: 15%; */
     font-family: 'Rowdies', cursive;
     margin: 0;
     text-align: start;
 }
 
 .hero-text-3{
-  border: 1px solid yellow;
-  height: 12%;  
+  /* height: 12%;   */
   font-size: 2vw;
     font-family: 'Rowdies', cursive;
     margin: 0;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
 }
 
 .intro{
@@ -458,7 +457,7 @@ button{
 
 .hero-text-3{
   margin-top: -10px;
-    font-size: 2vw;
+    font-size: 3vw;
     letter-spacing: 3px;
 }
 
