@@ -792,13 +792,13 @@ button {
     margin-top: -50px; 
     padding: 0 15px;
     width: 95%;
-    height: 95%;
+    height: 90%;
   }
   
   .about-me-text{
     border: 1px solid red;
     width: 95%;
-    height: 60%; 
+    height: 50%; 
     margin-top: 15px; 
     padding: 0 10px;
     line-height: 20px;
@@ -807,7 +807,7 @@ button {
   .about-me-image{
     border: 1px solid red;
     width: 90%;
-    height: 40%; 
+    height: 50%; 
   }
   
   .about-me-image-container{
