@@ -917,7 +917,7 @@ button {
   }
   
   .about-me-image{
-    margin-top: 50px;
+    margin-top: 70px;
     height: 40%;
   
   }
@@ -1120,7 +1120,7 @@ button {
 
  /* iPADS, TABLETS */
  @media only screen and (max-width: 768px) {
-   .projects{
+   /* .projects{
      height: 150vh;
    }
    
@@ -1164,6 +1164,102 @@ button {
 #project-img-3{
   width: 110%;
   height: 85%;
+} */
+
+.projects{
+  height: 250vh;
+  margin-top: 0;
+
+}
+
+.projects-container{
+  margin-top: 150px;
+  width: 90%;
+  height: 85%;
+}
+
+.project-1, .project-2, .project-3{
+ width: 80%;
+ height: 40%;
+ padding: 4px;
+ flex-direction: column-reverse;
+}
+
+#project-2{
+ margin-left: 0;
+ flex-direction: column-reverse;
+}
+
+.project-content-1{
+ background-color: rgb(34, 34, 112);
+ color: #d8c0b7;
+ font-size: 15px;
+ opacity: 90%;
+ padding: 5px;
+ width: 95%;
+ height: 50%;
+ left: 0;
+ bottom: 100px;
+}
+
+#project-content-1{
+left: 0;
+}
+
+.project-topic{
+height: 15%;
+}
+
+.project-description{
+height: 60%;
+}
+
+.project-paragraph{
+font-size: 15px;
+padding: 3px;
+margin: 0;
+}
+
+.project-tech{
+word-spacing: 15px;
+height: 10%;
+margin: 5px 2px 5px 2px;
+}
+
+.github, .external-link{
+height: 10%;
+width: 20px;
+height: 20px;
+}
+
+#project-links-2{
+text-align: start;
+}
+
+.project-content-2{
+display: inline;
+ overflow: hidden;
+ width: 99%;
+ height: 120%;
+}
+
+.project-content-2-image{
+ width: 100%;
+ height: 120%;
+}
+
+#project-img-2{
+overflow: visible; 
+width: 100%;
+height: 100%;
+/* inherits: unset; */
+}
+
+#project-img-3{
+/* inherits: unset; */
+overflow: visible; 
+width: 100%;
+height: 100%; 
 }
 
        
