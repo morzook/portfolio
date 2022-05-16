@@ -20,7 +20,7 @@ body {
 }
 a.site-logo {
   font-size: 1.8rem;
-  font-weight: 800;
+  font-weight: 600;
   margin-left: 10px;
   padding-bottom: 20px;
   text-transform: uppercase;
@@ -30,17 +30,19 @@ a.site-logo {
 
 .site-navbar ul {
   height: 40px;
+  width: 50%;
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
 }
 .site-navbar ul li a {
-  font-size: 20px;
+  border: 2px solid red;
+  font-size: 18px;
   height: 10px;
   color: #fff;
   margin-top: -20px;
-  padding: 5px;
+  padding: 2px;
   display: block;
   text-decoration: none;
   text-transform: capitalize;
