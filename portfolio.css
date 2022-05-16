@@ -470,10 +470,9 @@ button{
 }
 
 .social-buttons{
-  border: 1px solid rgb(37, 126, 77);
   margin-top: 10px;
   height: 15%;
-  justify-content: unset;
+  justify-content: center;
   width: 40%;
 }
 
@@ -545,7 +544,6 @@ button{
 .social-buttons{
   margin-top: 10px;
   width: 30%;
-
 }
 
 .icons{
@@ -615,6 +613,11 @@ button {
   font-size: 17px;
   height: 30%;
   text-align: center;
+}
+
+.social-buttons{
+  margin-top: 10px;
+  width: 30%;
 }
 
 .icons{
