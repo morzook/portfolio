@@ -30,14 +30,13 @@ a.site-logo {
 
 .site-navbar ul {
   height: 40px;
-  width: 50%;
+  width: 40%;
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
 }
 .site-navbar ul li a {
-  border: 2px solid red;
   font-size: 18px;
   height: 10px;
   color: #fff;
@@ -50,6 +49,16 @@ a.site-logo {
 .site-navbar ul li a:hover {
   background: rgba(255,255,255,.1);
 }  
+
+.nav-btn{
+  border: 2px dashed tomato;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
 
 .nav-toggler {
   border: none;
