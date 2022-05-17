@@ -183,6 +183,14 @@ a.site-logo {
   margin-top: 20px;
 }
 
+.nav-btn{
+  width: 20%;
+  height: 10%;
+  margin-top: 10px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
   }   
 
 @media screen and (max-width: 480px) {
@@ -227,6 +235,13 @@ a.site-logo {
     .site-navbar ul li a {
       font-size: 20px;
       margin-top: 25px;
+    }
+    .nav-btn{
+      width: 40%;
+      height: 5%;
+      margin-top: 5px;
+      font-size: 15px;
+      text-transform: capitalize;
     }
 }
 /* NAV SECTION ENDS */
@@ -529,6 +544,7 @@ button{
 }
 
 .hero-paragraph{
+  opacity: 30%;
   /* margin-top: -12px; */
   width: 100%;
   font-size: 14px;
@@ -596,6 +612,7 @@ button {
   height: 12%;
     font-size: 5vw;
   letter-spacing: 2px;
+  margin-top: 5px;
 }
 
 .intro{
@@ -606,6 +623,7 @@ button {
   font-size: 17px;
   height: 30%;
   text-align: center;
+  opacity: 30%;
 }
 
 .social-buttons{
