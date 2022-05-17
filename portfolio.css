@@ -1113,51 +1113,6 @@ button {
 
  /* iPADS, TABLETS */
  @media only screen and (max-width: 768px) {
-   /* .projects{
-     height: 150vh;
-   }
-   
-   .projects-container{
-   }
-
-   .project-1, .project-2, .project-3{
-    width: 99%;
-    height: 33%;
-    padding: 0 20px 0 0;
-    flex-direction: row;
-  }
-
-  #project-2{
-  }
-
-  .project-content-1{
-    background-color: rgb(34, 34, 112);
-    padding: 5px 5px 5px 10px;
-    width: 70%;
-    height: 50%;
-    position: relative;
-    left: 40px;
-  }
-
-  .project-content-2{
-    width: 35%;
-    height: 90%;
-  }
-
-  .project-content-2-image{
-    width: 110%;
-    height: 90%;
-  }
-
-#project-img-2{
-  width: 110%;
-  height: 85%;
-}
-
-#project-img-3{
-  width: 110%;
-  height: 85%;
-} */
 
 .projects{
   height: 250vh;
@@ -1439,7 +1394,7 @@ height: 100%;
 }
 
 .other-projects-content-1{
-  background-color: yellow;
+  background-color: rgb(153, 169, 202);
   height: 40%;
   display: flex;
   justify-content: center;
@@ -1496,7 +1451,7 @@ height: 100%;
 }
 
 .other-projects-content-1{
-  background-color: yellow;
+  background-color: rgb(153, 169, 202);
   height: 40%;
 }
 .other-projects-content-2{
